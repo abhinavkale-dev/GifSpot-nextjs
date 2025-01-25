@@ -41,7 +41,7 @@ const GiphyPage = () => {
     const GIPHY_TRENDING_URL = "https://api.giphy.com/v1/gifs/trending";
     const GIPHY_SEARCH_URL = "https://api.giphy.com/v1/gifs/search";
     try {
-      let url = query
+      const url = query
         ? `${GIPHY_SEARCH_URL}?api_key=${GIPHY_API}&q=${encodeURIComponent(query)}&limit=${LIMIT}&offset=${offset}&rating=g`
         : `${GIPHY_TRENDING_URL}?api_key=${GIPHY_API}&limit=${LIMIT}&offset=${offset}}&rating=g`;
       const res = await axios.get(url);
