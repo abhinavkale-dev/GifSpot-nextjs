@@ -43,7 +43,7 @@ To run the project locally:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/giphy-clone.git
+git clone https://github.com/abhinavkale-dev/GifSpot-nextjs.git
 ```
 
 2.	Navigate to the project directory:
